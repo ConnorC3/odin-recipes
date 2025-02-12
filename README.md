@@ -1,2 +1,2 @@
 # odin-recipes
-This is the recipes project designed to teach HTML
+This is my recipes page from the Odin Project

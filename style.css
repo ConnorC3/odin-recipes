@@ -1,7 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 .title, .subtitle {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 30px;
+    padding: 20px;
+    border: black 2px solid;
+    border-radius: 15px;
 }
 
 a, p, ul, ol {
@@ -9,10 +16,14 @@ a, p, ul, ol {
     margin: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: red; 
+}
+
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .title {
@@ -21,4 +32,16 @@ img {
 
 #recipes-list {
     font-size: 28px;
+    border: black 2px solid;
+    margin: 0 1em;
+    border-radius: 15px;
+}
+
+.home-btn {
+    padding: 5px;
+    border: black 2px solid;
+    border-radius: 5px;
+    background-color: lightgreen;
+    color: black;
+    margin: 1rem;
 }

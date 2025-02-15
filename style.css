@@ -1,0 +1,24 @@
+.title, .subtitle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 30px;
+}
+
+a, p, ul, ol {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 40px;
+}
+
+#recipes-list {
+    font-size: 28px;
+}
